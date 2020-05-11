@@ -1,0 +1,36 @@
+.formSearch {
+    padding: 40px 0;
+
+    &__inputs {
+
+        & input{
+            display: inline-block;
+            width: 90%;
+            border-style: none;
+            border-bottom: 2px solid #cecece;   
+            margin-bottom: 30px;
+            &:hover{
+                border-bottom: 2px solid #305C90;
+            }
+        }
+
+        & label {
+            display: block;
+        }
+    }
+
+    &__btn input{
+        display: inline-block;
+        padding: 10px 20px;
+        border: 2px solid transparent;
+        border-radius: 4px;
+        background: #305C90;
+        color: #fff;
+        transition: all .3s ease;
+
+        &:hover{
+            border: 2px solid #cecece;
+            transform: scale(1.1);
+        }
+    }
+}

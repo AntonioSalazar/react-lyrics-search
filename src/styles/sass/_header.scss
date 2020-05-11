@@ -1,4 +1,16 @@
 .header {
-    background: #cecece;
+    background: #305C90;
     font-size: 16px;
+    text-align: center;
+    &__title {
+        display: inline-block;
+        padding: 40px 0;
+        color: #fff;
+    }
+
+    & small {
+        color: #fff;
+        text-decoration: underline;
+    }
 }
+

@@ -7,6 +7,81 @@
   * textarea:focus, * input:focus {
     outline: none; }
 
+body {
+  font-family: 'Righteous', cursive; }
+
+h3 {
+  padding-bottom: 0px; }
+
 .header {
-  background: #cecece;
-  font-size: 16px; }
+  background: #305C90;
+  font-size: 16px;
+  text-align: center; }
+  .header__title {
+    display: inline-block;
+    padding: 40px 0;
+    color: #fff; }
+  .header small {
+    color: #fff;
+    text-decoration: underline; }
+
+.formSearch {
+  padding: 40px 0; }
+  .formSearch__inputs input {
+    display: inline-block;
+    width: 90%;
+    border-style: none;
+    border-bottom: 2px solid #cecece;
+    margin-bottom: 30px; }
+    .formSearch__inputs input:hover {
+      border-bottom: 2px solid #305C90; }
+  .formSearch__inputs label {
+    display: block; }
+  .formSearch__btn input {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    background: #305C90;
+    color: #fff;
+    transition: all .3s ease; }
+    .formSearch__btn input:hover {
+      border: 2px solid #cecece;
+      transform: scale(1.1); }
+
+.error {
+  padding: 20px;
+  background: #ea2f1e;
+  border-radius: 5px;
+  width: 70%;
+  margin: 0 auto; }
+  .error__title {
+    text-align: center;
+    margin-bottom: 0;
+    color: #fff; }
+
+.lyrics {
+  float: left;
+  width: 100%; }
+  .lyrics__title {
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 2px solid #EA5E5B;
+    margin-bottom: 20px; }
+  .lyrics__song {
+    background: #f0f0f0;
+    padding: 20px;
+    text-align: left;
+    font-weight: 200;
+    line-height: 1.6;
+    box-shadow: 2px 5px 8px #000;
+    border-style: none; }
+
+.artist {
+  float: right;
+  width: 100%; }
+  .artist__title {
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 2px solid #EA5E5B;
+    margin-bottom: 20px; }
